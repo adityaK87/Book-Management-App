@@ -11,6 +11,7 @@ import EditBook from "../Components/EditBook";
 import Header from "../Components/Header";
 import UseLocalStorage from "../Hooks/UseLocalStorage";
 import BookContext from "../Context/BookContext";
+import Footer from "../Components/Footer";
 
 const AppRouter = () => {
    const [books, setBooks] = UseLocalStorage("books", []);
@@ -54,6 +55,10 @@ const AppRouter = () => {
                   </Routes>
                </BookContext.Provider>
             </div>
+         </div>
+         <div style={{ textAlign: "center" }}>
+
+            <Footer />
          </div>
       </Router>
    );
