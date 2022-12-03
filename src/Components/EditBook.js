@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import BookContext from "../Context/BookContext";
 import BookForm from './BookForm';
 import { useNavigate, useParams } from 'react-router-dom';
-//returns object of key/value pairs of the dynamic params from the current URL that were matched by the <Route path>
+//useParams => returns object of key/value pairs of the dynamic params from the current URL that were matched by the <Route path>
 
-const EditBook = ({ history, books, setBooks }) => {
+const EditBook = (/*{ books, setBooks }*/) => {
+    const { books, setBooks } = useContext(BookContext)
     const Navigate = useNavigate()
     const { id } = useParams()
     const bookToEdit = books.find((book) => book.id === id)
