@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/adityapal87/Book_Management_App/static/css/main.2f82fe93.css",
+    "main.css": "/adityapal87/Book_Management_App/static/css/main.956dff99.css",
     "main.js": "/adityapal87/Book_Management_App/static/js/main.da45890e.js",
     "index.html": "/adityapal87/Book_Management_App/index.html",
-    "main.2f82fe93.css.map": "/adityapal87/Book_Management_App/static/css/main.2f82fe93.css.map",
+    "main.956dff99.css.map": "/adityapal87/Book_Management_App/static/css/main.956dff99.css.map",
     "main.da45890e.js.map": "/adityapal87/Book_Management_App/static/js/main.da45890e.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f82fe93.css",
+    "static/css/main.956dff99.css",
     "static/js/main.da45890e.js"
   ]
 }
