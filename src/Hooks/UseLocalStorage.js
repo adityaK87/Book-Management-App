@@ -1,5 +1,4 @@
-// eslint-disable-next-line
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 
 const UseLocalStorage = (key, initialValue) => {
    const [value, setValue] = useState(() => {

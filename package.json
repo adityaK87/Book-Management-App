@@ -1,13 +1,12 @@
 {
+   "homepage": "https://github.com/adityapal87/Book_Management_App",
    "name": "Book_Management_App",
-   "homepage": "https://github.com/adityapal87/Book_Management_App/",
    "version": "0.1.0",
    "private": true,
    "dependencies": {
       "@testing-library/jest-dom": "^5.16.5",
       "@testing-library/react": "^13.4.0",
       "@testing-library/user-event": "^13.5.0",
-      "autoprefixer": "10.4.5",
       "bootstrap": "^4.6.0",
       "gh-pages": "^4.0.0",
       "lodash": "^4.17.21",
