@@ -22,6 +22,40 @@ This fully responsive App will help you to remember that what books would you lo
 -  Bootstrap for Styling
 -  lodash
 
+## Folder Structure
+
+```
+├── Book_Management_App
+      └── public
+      └── src
+           └── assets
+                  └── bookApp.png
+           └── components
+                  └── AddBook.js
+                  └── Book.js
+                  └── BookForm.js
+                  └── BookList.js
+                  └── EditBook.js
+                  └── Footer.js
+                  └── Header.js
+           └── context
+                  └── BookContext.js
+           └── hooks
+                  └── UseLocalStorage.js
+           └── routers
+                  └── AppRouter.js
+           └── style
+                  └── styles.css
+                  └── styles.css.map
+                  └── styles.scss
+           └── index.js
+      └──.gitignore
+      └── package.json
+      └── package-lock.json
+      └── README.md
+
+```
+
 ## 🛠️ Installation Steps
 
 Star and Fork the Repo 🌟 and this will keep us motivated.
