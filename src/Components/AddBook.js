@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import { useNavigate } from 'react-router-dom';
 import BookForm from './BookForm'
-import BookContext from '../Context/BookContext';
+import BookContext from '../context/BookContext';
 
 const AddBook = (/*{ books, setBooks }*/) => {
     //now we are getting state by context api 

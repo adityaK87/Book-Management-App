@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import _ from "lodash";
 import Book from "./Book";
-import BookContext from "../Context/BookContext";
+import BookContext from "../context/BookContext";
 
 const BookList = () => {
    const { books, setBooks } = useContext(BookContext)

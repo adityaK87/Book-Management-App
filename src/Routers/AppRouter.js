@@ -5,13 +5,13 @@ import {
    Route,
    Navigate,
 } from "react-router-dom";
-import AddBook from "../Components/AddBook";
-import BookList from "../Components/BookList";
-import EditBook from "../Components/EditBook";
-import Header from "../Components/Header";
-import UseLocalStorage from "../Hooks/UseLocalStorage";
-import BookContext from "../Context/BookContext";
-import Footer from "../Components/Footer";
+import AddBook from "../components/AddBook";
+import BookList from "../components/BookList";
+import EditBook from "../components/EditBook";
+import Header from "../components/Header";
+import UseLocalStorage from "../hooks/UseLocalStorage";
+import BookContext from "../context/BookContext";
+import Footer from "../components/Footer";
 
 const AppRouter = () => {
    const [books, setBooks] = UseLocalStorage("books", []);

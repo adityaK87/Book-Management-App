@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import BookContext from "../Context/BookContext";
+import BookContext from "../context/BookContext";
 import BookForm from './BookForm';
 import { useNavigate, useParams } from 'react-router-dom';
 //useParams => returns object of key/value pairs of the dynamic params from the current URL that were matched by the <Route path>
