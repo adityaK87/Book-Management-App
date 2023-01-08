@@ -63,13 +63,13 @@ Star and Fork the Repo 🌟 and this will keep us motivated.
 1. Clone the repository
 
 ```bash
-git clone https://github.com/adityapal87/Book_Management_App
+git clone https://github.com/adityapal87/Book-Management-App
 ```
 
 2. Change the working directory
 
 ```bash
-cd Book_Management_App
+cd Book-Management-App
 ```
 
 3. Install dependencies
@@ -88,4 +88,7 @@ npm run start
 
 <center>
 <img src ="./src/assets/bookApp.png" width="70%" align="center"></img>
+
+<img src ="./src/assets/Book-manage-App.png" width="70%" align="center" style='margin:20px'></img>
+
 </center>
