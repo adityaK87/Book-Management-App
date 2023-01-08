@@ -2,7 +2,7 @@
 
 ## 📌 Introduction
 
-This fully responsive App will help you to remember that what books would you love to read in your free time as well as in busy time.
+This fully responsive App will help you to remember that How many books are available in your book store and what is the Price of that book and who is the writer of that book and how may pages are in the book.
 
 <!-- ## 🚀 Visit Now -->
 
